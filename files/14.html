@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 14</title>
+    <style>
+        ul {
+            list-style-type: none;
+        }
+
+        ul li:before {
+            content: '';
+            display: inline-block;
+            height: 10px;
+            width: 10px;
+            background-size: 10px;
+            background-image: url("../images/16.jpeg");
+            background-repeat: no-repeat;
+            margin-right: 5px;
+        }
+        td{
+            background-color: rgb(0, 255, 251);
+            padding: 20px;
+            width: 150px !important;
+        }
+        .one{
+            background-color: rgb(0, 174, 255);
+            padding: 20px;
+            text-align: center !important;
+        }
+        th{
+            background-color: rgb(0, 255, 251);
+            padding: 20px;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Poetry Workshops</h1>
+    <p>We will conducting a number of poetry workshops and symponoums throughout the year.<br />
+    </p>
+    <ul>
+        Please note that the following events are free of members:
+        <li>A Poetic perspective</li>
+        <li>Wait Withman at war</li>
+        <li>Found poems and outsider poetry</li>
+    </ul>
+    <table>
+        <tr>
+            <th class="one"></th>
+            <th class="one">fsd</th>
+            <th class="one">lhr</th>
+            <th class="one">isb</th>
+        </tr>
+        <tr>
+            <th>A poetic perspective</th>
+            <td>Saturday 4 feb 2012 11am-2pm</td>
+            <td>Saturday 4 feb 2012 11am-2pm</td>
+            <td>Saturday 4 feb 2012 11am-2pm</td>
+        </tr>
+        <tr>
+            <th>Wait Withman at war</th>
+            <td>Saturday 4 feb 2012 11am-2pm</td>
+            <td>Saturday 4 feb 2012 11am-2pm</td>
+            <td>Saturday 4 feb 2012 11am-2pm</td>
+        </tr>
+        <tr>
+            <th>Found poems and outsider poetry</th>
+            <td>Saturday 4 feb 2012 11am-2pm</td>
+            <td>Saturday 4 feb 2012 11am-2pm</td>
+            <td>Saturday 4 feb 2012 11am-2pm</td>
+        </tr>
+        <tr>
+            <th>Natural Death: An exploration</th>
+            <td>Saturday 4 feb 2012 11am-2pm</td>
+            <td>Saturday 4 feb 2012 11am-2pm</td>
+            <td>Saturday 4 feb 2012 11am-2pm</td>
+        </tr>
+    </table>
+    <form>
+        <fieldset>
+            <legend>Register your interest</legend>
+            <label for="name">Your Name: <input type="text" id="name"/></label><br/><br/>
+            <label for="email">Your Email: <input type="email" id="email"/></label><br/><br/>
+            <label>Your closest center: 
+                <select>
+                    <option>fsd</option>
+                    <option>lhr</option>
+                    <option>isb</option>
+                </select>
+            </label><br/><br>
+            Are you a member? <input type="radio" name="yes" id="yes"/><label for="yes">Yes</label> 
+                <input type="radio" name="yes" id="no"/><label for="no">No</label>
+        </fieldset>
+    </form>
+</body>
+
+</html>
